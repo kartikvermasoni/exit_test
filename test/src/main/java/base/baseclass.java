@@ -26,8 +26,8 @@ public class baseclass {
     public void setup() {
     	
     	//starting the server 
-        service = AppiumDriverLocalService.buildDefaultService();
-        service.start();
+      //  service = AppiumDriverLocalService.buildDefaultService();
+      //  service.start();
        
         POI_XL reader = new POI_XL("./src/main/java/base/reusable.xlsx");//reusable excel file path
         
@@ -50,7 +50,7 @@ public class baseclass {
     //--- To Stop the Server
     public void Stopappium() {
         wd.quit();
-        service.stop();
+        //service.stop();
     }
   //method for screenshot//if any test fails
 	
