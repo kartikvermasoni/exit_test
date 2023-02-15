@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 11.296 s <<< FAILURE! - in TestSuite
+feature(Runner.Runner)  Time elapsed: 4.346 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
+feature(Runner.Runner)  Time elapsed: 1.904 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
+feature(Runner.Runner)  Time elapsed: 1.975 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemofirstscreen.clicked_Views to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
+feature(Runner.Runner)  Time elapsed: 1.241 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemosecondscreen.clicked_App to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+Caused by: java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Screens.apidemosecondscreen.clicked_App to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+
